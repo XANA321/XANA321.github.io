@@ -1,0 +1,33 @@
+* {
+  list-style: none;
+}
+
+li {
+  border: 1px solid red;
+  height: 90px;
+  width: 144px;
+  float: left; /* 浮动 */
+  margin: 10px; /* 外边距 */
+  box-shadow: -10px 10px 10px red; /* 向框添加阴影 */
+}
+
+li:first-child {
+  background-image: url(../img/bg1.jpg); /* 背景图片 */
+  background-size: 144px 90px; /* 背景大小 */
+}
+li:nth-child(2) {
+  background-image: url(../img/bg2.jpg); /* 背景图片 */
+  background-size: 144px 90px; /* 背景大小 */
+}
+li:nth-child(3) {
+  background-image: url(../img/bg3.jpg); /* 背景图片 */
+  background-size: 144px 90px; /* 背景大小 */
+}
+li:nth-child(4) {
+  background-image: url(../img/bg4.jpg); /* 背景图片 */
+  background-size: 144px 90px; /* 背景大小 */
+}
+li:last-child {
+  background-image: url(../img/bg5.jpg); /* 背景图片 */
+  background-size: 144px 90px; /* 背景大小 */
+}
